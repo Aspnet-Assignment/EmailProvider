@@ -9,6 +9,7 @@ using Newtonsoft.Json;
 
 namespace EmailProvider.Functions;
 
+//changes for push
 public class EmailSender(ILogger<EmailSender> logger, EmailClient emailClient)
 {
     private readonly ILogger<EmailSender> _logger = logger;
